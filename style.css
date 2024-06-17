@@ -1,4 +1,62 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+
+.container{
+    width: 500px;
+    height:550px;
+    margin-left: 300px;
+    border-radius: 8px;
+    border: 2px solid rgb(28, 44, 38);
+    display: flex;
+    flex-direction: column;
+}
+
+.display{
+    flex: 1;
+    background-color: azure;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.display .history{
+    flex:1;
+    background-color: lightslategray;
+}
+.display .current{
+    flex:2;
+}
+
+.buttons{
+    flex:4;
+    display: flex;
     
 }
+.buttons .left{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+}
+.buttons .right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.buttons .button-row{
+    flex:1;
+    display: flex;
+}
+.buttons .left button{
+    background-color:lightgray;
+    flex:1;
+    border: 1px solid orange;
+}
+.buttons .right button{
+    background-color:orange;
+    flex:1;
+    border: 1px solid grey;
+}
+
+
